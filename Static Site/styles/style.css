@@ -1,0 +1,81 @@
+/* || General styles */
+
+.container {
+    max-width: 1024px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.primary-color {
+    color: #0EBFDD;
+}
+
+.bg-primary-color {
+    background-color: #0EBFDD;
+}
+
+.btn {
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-primary {
+    background-color: #0EBFDD;
+    border-color: #0EBFDD;
+}
+
+/* || Footer */
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.copyright p, .copyright a, .footer-icons a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright a:hover, .footer-icons a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* || Sections */
+
+.hero {
+    padding-top: 400px;
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    margin: 0;
+}
+
+h2 .fa-star {
+    font-size: 0.3em;
+    vertical-align: middle;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
