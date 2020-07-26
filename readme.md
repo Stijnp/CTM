@@ -1,5 +1,4 @@
-Compare The Market WordPress Technical test
+# Compare The Market WordPress Technical test
 
-Includes a WordPress Plugin adding a CPT and taxonomy
-
-Includes a Static Site based on the following PSD file: https://github.com/JakeSchoermer/CTM-Wordpress-Test-PSD
+1. WordPress Plugin adding a CPT and taxonomy
+1. Static Site using Bootstrap and Font-Awesome based on the following design: https://github.com/JakeSchoermer/CTM-Wordpress-Test-PSD
